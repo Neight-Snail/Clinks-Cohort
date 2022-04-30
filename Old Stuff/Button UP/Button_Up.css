@@ -1,0 +1,29 @@
+.search, .plus, .create {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.search {
+    font-weight: 900;
+    width: 100px;
+    border-radius: 20px;
+    color: aquamarine;
+    border: 2px solid aquamarine;
+    background-color: whitesmoke;
+}
+
+.plus {
+    width: 40px;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.create {
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}

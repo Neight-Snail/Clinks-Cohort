@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+.top-bar {
+    background-color: black;
+    align-content: center;
+}
+
+.navigation {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    height: 100px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-main {
+    margin-left: 10px;
+}
+
+.btn {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: aqua;
+    font-size: small;
+    box-shadow: 5px black;
+}
+
+.col-left, .col-right {
+    margin: 10px;
+    padding: 10px;
+    flex: auto;
+}
+
+.container {
+    width: 1000px;
+    background-color: aqua;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_card{
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    overflow: hidden;
+    font-size: small;
+}
+
+.card-header {
+    background-color: aqua;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+    margin-left: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-color: white;
+    height: 100px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.sec-icon {
+    height: 15px;
+}
+
+a {
+    color: blue;
+}
