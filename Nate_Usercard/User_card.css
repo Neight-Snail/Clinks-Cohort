@@ -63,7 +63,7 @@ body {
     align-items: center;
 }
 
-.user_card{
+.user_card, .card{
     width: 100%;
     background-color: white;
     border: 2px solid black;
